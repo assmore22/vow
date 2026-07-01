@@ -15,6 +15,7 @@ html{scroll-behavior:smooth}
 body{font-family:var(--sans);color:var(--ink2);background:var(--bg);line-height:1.65;-webkit-font-smoothing:antialiased}
 h1,h2,h3,h4{font-family:var(--disp);color:var(--ink);line-height:1.08;font-weight:700;letter-spacing:-.015em}
 a{color:var(--em-d);text-decoration:none}
+a:hover{text-decoration:none}
 .mono{font-family:var(--fm);font-variant-numeric:tabular-nums}
 
 .btn{display:inline-flex;align-items:center;gap:8px;font-family:var(--sans);font-weight:600;font-size:15px;border:none;cursor:pointer;border-radius:11px;padding:11px 19px;transition:.18s var(--ease)}
