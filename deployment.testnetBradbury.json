@@ -1,0 +1,15 @@
+{
+  "project": "25-vow",
+  "name": "Vow",
+  "network": "testnetBradbury",
+  "chainId": 4221,
+  "rpc": "https://rpc-bradbury.genlayer.com",
+  "explorer": "https://explorer-bradbury.genlayer.com",
+  "contractAddress": "0xe48B45Ee02D755B96a63Bc790E5746ab9b24B9a3",
+  "deployTxHash": "0x3e536bb4438f948756657e907109a5b970baea03cc1bd44d5a50c1f7abed24f4",
+  "contractExplorer": "https://explorer-bradbury.genlayer.com/address/0xe48B45Ee02D755B96a63Bc790E5746ab9b24B9a3",
+  "deployer": "0xdAa923b817C6116f2463957542FB29F6Ba671FE8",
+  "deployedAt": "2026-07-01T15:50:50.224Z",
+  "statusName": 5,
+  "smoke": {}
+}

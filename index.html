@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Vow - put your word on-chain</title>
+<meta name="description" content="Vow turns promises into accountability contracts. Stake on a commitment; when it is time to settle, a validator set reads your proof and decides if you kept it. Kept returns your stake; broken sends it to your beneficiary." />
+<link rel="stylesheet" href="./styles.css?v=1">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://rsms.me/"><link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/fill/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#/"><span class="brand-mark"><i class="ph-fill ph-seal-check"></i></span> Vow</a>
+    <div class="nav-links">
+      <a href="#/" class="nl" data-route="home">Home</a>
+      <a href="#/how" class="nl" data-route="how">How it works</a>
+      <a href="#/vows" class="nl" data-route="vows">Explore</a>
+    </div>
+    <div class="nav-end">
+      <span id="walletslot"><button class="btn ghost sm" id="connectBtn">Connect</button></span>
+      <a href="#/make" class="btn primary sm"><i class="ph-bold ph-plus"></i> Make a vow</a>
+    </div>
+  </div>
+</nav>
+
+<main id="app"><div class="loading">Loading…</div></main>
+
+<footer class="footer">
+  <div class="foot-inner">
+    <div class="foot-col">
+      <span class="brand"><span class="brand-mark sm"><i class="ph-fill ph-seal-check"></i></span> Vow</span>
+      <p>Accountability contracts, settled by reading the evidence - not by trusting a referee.</p>
+    </div>
+    <div class="foot-col">
+      <span class="foot-h">Pages</span>
+      <a href="#/">Home</a><a href="#/how">How it works</a><a href="#/vows">Explore vows</a><a href="#/make">Make a vow</a>
+    </div>
+    <div class="foot-col">
+      <span class="foot-h">Built on</span>
+      <a href="https://docs.genlayer.com/" target="_blank" rel="noopener">GenLayer Intelligent Contracts</a>
+      <span class="net"><span class="net-dot"></span>Bradbury · live on-chain</span>
+    </div>
+  </div>
+</footer>
+
+<div id="log"></div>
+<script type="module" src="./app.js?v=1"></script>
+</body>
+</html>
